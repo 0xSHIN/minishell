@@ -2,7 +2,7 @@ NAME            =    minishell
 
 LIBFT            =    libft.a
 
-DIR_SRCS        =    srcs/mandatory
+DIR_SRCS        =    srcs/
 
 DIR_BONUS        =    srcs/bonus
 
