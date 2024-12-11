@@ -41,7 +41,7 @@ $(NAME): $(DIR_OBJS) $(OBJS)
 	@ make -s -C  libft
 	@ mv libft/libft.a .
 	@ $(CC) ${HEAD} $(CFLAGS) $(OBJS)  -lreadline ${LIBFT} -o $(NAME)
-	@ echo "MINISHELL"  | toilet -f future -F border --metal
+	@ echo "MINISHELL"
 
 $(OBJS) : $(DIR_OBJS)/%.o : $(DIR_SRCS)/%.c | $(DIR_OBJS)
 	@ mkdir -p $(dir $@)
